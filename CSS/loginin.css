@@ -1,0 +1,120 @@
+.navbar-brand img {
+    max-height: 45px;
+    margin-left: 10%;
+}
+.bg-light {
+    background-color: #28b6f6!important;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+}
+.nav-item :hover{
+    background: #0293D4;
+    transition: 0.5s;
+    text-transform: inherit;
+    font-size: 1.1em;
+  }
+#form{
+    margin-top: 9%;
+    background-color:  transparent;
+}
+#icone{
+    float: right;
+    margin-top: -45px;
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: inherit;
+}
+/* style input*/
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: rgba(255,255,255, 0.6);
+    box-sizing: border-box;
+    background-color:transparent;
+    font-family: inherit;
+    font-size: 17px;
+    color: white;
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: white;
+}
+
+.text{
+    font-family: inherit ;
+}
+
+/* boutton */
+input[type=submit] {
+    background-image: linear-gradient(to bottom right, #90D9F5, #28b6f6);
+    color: white;
+    font-size: 20px ;
+    font-family: inherit;
+    padding: 8px 5px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 30%;
+    text-align: center;
+}
+input[type=submit]:hover {
+    background-color:#127396 ;
+    color: white;
+    border: 1px solid #61C2FF;
+}
+.oublie{
+    font-family: inherit ;
+    font-size: 1em;
+    color: white;
+    padding-left: 30%;
+}
+.help{
+    color: white;
+    font-size: 2rem;
+    transition: all 0.2s ease-in-out;
+    margin-left: 10px;
+}
+.help :hover{
+    text-decoration: none;
+    color: royalblue;
+}
+footer{
+    height: auto;
+    background-color: #28b6f6;
+}
+.compte{
+    font-size: 1em;
+    font-family: inherit;
+    color: white;
+    margin-bottom: 0;
+}
+.inscrivez{
+    font-size: 1em;
+    font-family: inherit;
+    color: white;
+    text-decoration: underline;
+}
+.inscrivez :hover{
+    text-decoration: none;
+    color: royalblue;
+
+}

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="site ooficiel..." /> <!--ce qui saffiche sur la barre de recherche de google-->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="shorcut icone" href="logocelec.png" style="width: 32px; height: 32px;">   
+    <script src="https://kit.fontawesome.com/27e5e9f5bc.js" crossorigin="anonymous"></script> <!--pour avoir les log des boutons-->
+    <link rel="stylesheet" href="../css/loginin.css">
+    <link rel="stylesheet" type="text/css" href="sweetalert.css">
+    
+    <title> Login in EN </title>
+  </head>
+    <body>
+        <!--*************** NavBar ***************-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="../html/siteEN.html"><img src="../pict/logo FR.png" ></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+           <li class="nav-item ">
+              <a class="nav-link" href="../html/siteEN.html" style="color: white;"> Accueil <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/siteEN.html" style="color: white;"> Evénements </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/siteEN.html" style="color: white;"> Archives </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/siteEN.html" style="color: white;"> Nous-Contactez</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                <i class="fas fa-globe-africa" style="height: 20px;"></i> Langues
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="../html/logininAR.html">  <img src="../pict/flag-alg.png" style="height: 15px;width: 22px;"> عربية </a>
+                <a class="dropdown-item" href="#"> <img src="../pict/Flag-En.png" style="height: 15px;width: 22px;"> EN </a>
+                <a class="dropdown-item" href="../html/loginin.html"> <img src="../pict/Flag-France.png" style="height: 15px;width: 22px;"> FR </a> 
+              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white; font-weight: 600; background-color: #0293D4;">  Passeport <img src="../pict/passport.png"></a>
+              </li>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <!-- form -->
+    <div class="container-fluid" style="background-image: url(../pict/fond.jpg); min-height: 88vh; padding-top: 80px; background-repeat: no-repeat;background-size: cover;">
+        <div class="row">
+            <div class="col-md-4 offset-md-4" id="form">
+            <form action="#" method="POST">
+              <h1 id="text">Login</h1>
+              <input type="text" placeholder="Your username" id="text" name="username" required> <i class="fas fa-user-alt" id="icone"></i>
+              <input type="password" placeholder="Your password" id="text" name="password" required>  <i class="fas fa-unlock-alt" id="icone"></i>
+              <input type="submit" id='submit' value='Login' >
+              <a href="" class="oublie">Forgotten passport!</a>
+            </form>
+            </div>
+        </div>
+    </div>
+    <!-- footer-->
+    <footer class="container-fluid">
+        <div class="row justify-content-around align-items-center"> 
+            <div class="col-12 col-md-4" style="margin-top: 10px;">
+               <a  href="#" target="_blank" class="help"><i class="far fa-question-circle"></i></a>
+            </div>
+            <div class="col-12 col-md-6" style="text-align: right; margin-top: 10px; margin-bottom: 1.5%;">
+               <p class="compte"> You do not have an account?</p>
+               <a href="index.html" class="inscrivez"> Inscrivez-vous ! </a>
+            </div>
+        </div>  
+    </footer>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Optional JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    </body>
+</html>

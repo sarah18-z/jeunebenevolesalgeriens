@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="site ooficiel..." /> <!--ce qui saffiche sur la barre de recherche de google-->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="shorcut icone" href="logocelec.png" style="width: 32px; height: 32px;">   
+    <script src="https://kit.fontawesome.com/27e5e9f5bc.js" crossorigin="anonymous"></script> <!--pour avoir les log des boutons-->
+    <link rel="stylesheet" href="../css/passportAR.css">
+    <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+    
+    <title> passport AR</title>
+  </head>
+    <body>
+        <!--*************** NavBar ***************-->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white; font-weight: 600; background-color: #0293D4;"> <img src="pict/passport.png"> جواز سفر </a>
+              </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                   اللغة<i class="fas fa-globe-africa" style="height: 20px;"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#" style="text-align: right;">  عربية  <img src="../pict/flag-alg.png" style="height: 15px;width: 22px; margin-left: 5px;"></a>
+                  <a class="dropdown-item" href="passportEN.html" style="text-align: right;">  EN<img src="../pict/Flag-En.png" style="height: 15px;width: 22px;margin-left: 5px;"> </a>
+                  <a class="dropdown-item" href="passport.html" style="text-align: right;">  FR <img src="../pict/Flag-France.png" style="height: 15px;width: 22px;margin-left: 5px;"></a> 
+                </div>
+            </li>
+           <li class="nav-item ">
+              <a class="nav-link" href="siteAR.html" style="color: white;"> تواصل معنا <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="siteAR.html" style="color: white;"> التظاهرات </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="siteAR.html" style="color: white;"> الأرشيف </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="siteAR.html" style="color: white;"> الصفحة الرئيسية</a>
+            </li>
+          </ul>
+        </div>
+        <a class="navbar-brand" href="siteAR.html"><img src="logo AR.png" style="margin-right: 25px;" ></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <!-- futures events -->
+    <div class="container">
+        <h5> الأحداث القادمة</h5>
+        <div class="row upcomevent">
+            <div class="col-12 col-md-4 ">
+                <img src="../pict/upcomevent1.png" style="width: 100%;">
+                <h4> CISCO </h4>
+                <p class="texte">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <img src="../pict/upcomevent2.png" style="width: 100%;">
+                <h4> C-TECH </h4>
+                <p class="texte">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <img src="../pict/upcomevent3.png" style="width: 100%;">
+                <h4> DJANGO-girls </h4>
+                <p class="texte">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . </p>
+            </div>
+            <div class="col-12 col-md-6 offset-md-5" style="margin-top: 0%;">
+                <a class="plus"><img src="../pict/flecheAR.png"> شاهد المزيد </a>
+            </div>
+        </div>
+    </div>
+   <!-- participations -->
+   <div class="container">
+    <h5 style="margin-bottom: 8%; margin-top: 5%;"> Mes participations</h5>
+    <div class="row">
+        <div class="col-12 col-md-1">
+            <div class="row">
+                <div class="col-5 col-md-12" id="icone" style="margin-bottom: 20px;"><button type="button" class="btn1"></button></div>
+                <div class="col-5 col-md-12" id="icone1"><button type="button" class="btn2"></button></div>
+            </div>
+        </div>
+            <div class="col-12 col-md-6" style="margin-left: 40px;">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <div class="row">
+                            <div class="col-4 col-md-4" style="margin-top: -10px;" >
+                                <div class="rating"><!--
+                                --><a href="#1" title="Donner 1 étoiles">☆</a><!--
+                                --><a href="#2" title="Donner 2 étoiles">☆</a><!--
+                                --><a href="#3" title="Donner 3 étoiles">☆</a><!--
+                                --><a href="#4" title="Donner 4 étoiles">☆</a><!--
+                                --><a href="#5" title="Donner 5 étoiles">☆</a>
+                              </div>
+                            </div> 
+                            <div class="col-4 col-md-4" style="margin-top: 10px;">
+                                <p class="localisation"> الجزائر ، 10 أكتوبر </p> 
+                             </div>
+                            <div class="col-12 col-md-4"> 
+                                <h1>عنوان الحدث</h1>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12">
+                        <p style="text-align: right;">لوريم ايبسوم دولار سيت أميت ، كونسيكتيتور أدايبا يسكينج أليايت ، سيت دو أيوسمود تيمبور أنك لابوري ات دولار ماجنا أليكيوا. يوت انيم أد مينيم فينايم، كيواس نوستريد أكسير سيتاشن يللأمكو لابورس نيسي يت أكيواس نوستريد ديواس أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجيايتار.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 ">
+                <img src="../pict/evenm1.png" style="height: 100%; width: 100%;">
+            </div>
+            <div class="col-md-10 offset-md-1 border-top border-secondary" style="margin-top: 5%;margin-bottom: 5%;"></div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-1">
+                <div class="row">
+                    <div class="col-5 col-md-12" id="icone" style="margin-bottom: 20px;"><button type="button" class="btn1"></button></div>
+                    <div class="col-5 col-md-12" id="icone1"><button type="button" class="btn2"></button></div>
+                </div>
+            </div>
+                <div class="col-12 col-md-6" style="margin-left: 40px;">
+                    <div class="row">
+                        <div class="col-12 col-md-12">
+                            <div class="row">
+                                <div class="col-4 col-md-4" style="margin-top: -10px;" >
+                                    <div class="rating"><!--
+                                    --><a href="#1" title="Donner 1 étoiles">☆</a><!--
+                                    --><a href="#2" title="Donner 2 étoiles">☆</a><!--
+                                    --><a href="#3" title="Donner 3 étoiles">☆</a><!--
+                                    --><a href="#4" title="Donner 4 étoiles">☆</a><!--
+                                    --><a href="#5" title="Donner 5 étoiles">☆</a>
+                                  </div>
+                                </div> 
+                                <div class="col-4 col-md-4" style="margin-top: 10px;">
+                                    <p class="localisation"> الجزائر ، 10 أكتوبر </p> 
+                                 </div>
+                                <div class="col-12 col-md-4"> 
+                                    <h1>عنوان الحدث</h1>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12">
+                            <p style="text-align: right;">لوريم ايبسوم دولار سيت أميت ، كونسيكتيتور أدايبا يسكينج أليايت ، سيت دو أيوسمود تيمبور أنك لابوري ات دولار ماجنا أليكيوا. يوت انيم أد مينيم فينايم، كيواس نوستريد أكسير سيتاشن يللأمكو لابورس نيسي يت أكيواس نوستريد ديواس أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجيايتار.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 ">
+                    <img src="../pict/evenm2.png" style="height: 100%; width: 100%;">
+                </div>
+                <div class="col-md-10 offset-md-1 border-top border-secondary" style="margin-top: 5%;margin-bottom: 5%;"></div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-1">
+                    <div class="row">
+                        <div class="col-5 col-md-12" id="icone" style="margin-bottom: 20px;"><button type="button" class="btn1"></button></div>
+                        <div class="col-5 col-md-12" id="icone1"><button type="button" class="btn2"></button></div>
+                    </div>
+                </div>
+                    <div class="col-12 col-md-6" style="margin-left: 40px;">
+                        <div class="row">
+                            <div class="col-12 col-md-12">
+                                <div class="row">
+                                    <div class="col-4 col-md-4" style="margin-top: -10px;" >
+                                        <div class="rating"><!--
+                                        --><a href="#1" title="Donner 1 étoiles">☆</a><!--
+                                        --><a href="#2" title="Donner 2 étoiles">☆</a><!--
+                                        --><a href="#3" title="Donner 3 étoiles">☆</a><!--
+                                        --><a href="#4" title="Donner 4 étoiles">☆</a><!--
+                                        --><a href="#5" title="Donner 5 étoiles">☆</a>
+                                      </div>
+                                    </div> 
+                                    <div class="col-4 col-md-4" style="margin-top: 10px;">
+                                        <p class="localisation"> الجزائر ، 10 أكتوبر </p> 
+                                     </div>
+                                    <div class="col-12 col-md-4"> 
+                                        <h1>عنوان الحدث</h1>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12">
+                                <p style="text-align: right;">لوريم ايبسوم دولار سيت أميت ، كونسيكتيتور أدايبا يسكينج أليايت ، سيت دو أيوسمود تيمبور أنك لابوري ات دولار ماجنا أليكيوا. يوت انيم أد مينيم فينايم، كيواس نوستريد أكسير سيتاشن يللأمكو لابورس نيسي يت أكيواس نوستريد ديواس أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجيايتار.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 ">
+                        <img src="../pict/evenm3.png" style="height: 100%; width: 100%;">
+                    </div>
+                    <div class="col-12 col-md-6 offset-md-5" style="margin-top: 2%; margin-bottom: 5%;">
+                        <a class="plus"><img src="pict/flecheAR.png"> شاهد المزيد </a>
+                      </div>
+                </div>
+            </div>
+     <!-- commentaires -->
+     <div class="container">
+        <div class="row contactform">
+            <div class="col-md-6 col-12">
+                <form>
+                  <textarea style="background-color: transparent;" class="form-control" placeholder="...رسالتك"></textarea>
+                </form>
+            </div>
+          <div class="col-md-6 col-12">
+            <p class="titre">اقتراح الحدث وتعليقات</p>
+            <p class="textcomment">أخبرنا عن تجربتك و اقترح أحداث جديدة</p>
+            <input type="submit" name="" class="btncontact" value="ارسال">
+          </div>
+        </div>
+      </div>
+      <!--*************** footer ***************-->
+<footer class="container-fluid">
+    <div class="row justify-content-around align-items-center"> 
+      <div class="col-12 col-md-4">
+        <a  href="https://www.facebook.com/mjsalgeria/" target="_blank" class="fcb"><i class="fab fa-facebook"></i></a>
+        <a  href="#" target="_blank" class="insta"><i class="fab fa-instagram"></i></a>
+        <a  href="#" target="_blank" class="google"><i class="fab fa-google-plus-g"></i></a>
+      </div>
+      <div class="col-12 col-md-4">
+        <p id="info">  العنوان: <span id="adresse">    شارع محمد بلوزداد .الجزائر 003 </span><i class="fas fa-map-marker-alt"></i> </p>
+        <p id="info">  الهاتف :<span id="adresse"> 023 51 24 24 </span><i class="fas fa-phone-alt"></i></p>
+        <p id="info">   <span id="adresse"> xyz@exemple.com</span> :  البريد الإلكتروني  <i class="fas fa-envelope"></i></p>
+        <p id="info"> <span id="adresse"> https://www.mjs.gov.dz/index.php/fr/ </span> : الموقع الالكتروني <i class="fab fa-internet-explorer"></i></p>
+      </div>
+    </div>  
+    <p id="copy"> Copyright © وزارة الشباب و الرياضة - جميع الحقوق محفوظة </p>
+    </footer>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Optional JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      
+      <script  src="function.js"></script>
+      </body>
+      </html>
